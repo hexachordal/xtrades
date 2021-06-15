@@ -8,6 +8,7 @@ import Trending from './trending';
 
 
 function App() {
+  
   return (
     <div className="App">
       <Nav />

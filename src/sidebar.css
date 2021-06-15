@@ -2,7 +2,7 @@
 
 
 .sidebar
-{position: sticky;
+{position: absolute;
 width: 250px;
 height: 940px;
 left: 0px;
@@ -17,4 +17,46 @@ background: linear-gradient(176.63deg, #113365 15.59%, #0C274F 99.02%);}
     left: 31px;
     top: 33.02px;
 
+}
+
+.menu{
+position: relative;
+width: 218px;
+height: 46px;
+/*left: 16px;
+top: 135px; */
+
+border-radius: 8px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: -0.3px;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.menu:hover {
+    animation-name: menuHover;
+    animation-duration: 0.45s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes menuHover {
+    100% {background: rgba(245, 248, 251, 0.1);}
+}
+
+.sidemenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    height: 138px;
+    left: 16px;
+    top: 135px;
 }
