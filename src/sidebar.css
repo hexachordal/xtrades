@@ -1,0 +1,20 @@
+/* Sidebar */
+
+
+.sidebar
+{position: sticky;
+width: 250px;
+height: 940px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(176.63deg, #113365 15.59%, #0C274F 99.02%);}
+
+.logo{
+    position: absolute;
+    width: 130px;
+    height: 23.08px;
+    left: 31px;
+    top: 33.02px;
+
+}

@@ -1,0 +1,22 @@
+.nav{/* Alerts */
+
+
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 288px;
+    top: 33px;
+    
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    /* or 121% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.8px;
+    
+    color: #435274;
+    }
